@@ -31,7 +31,7 @@ jobs:
       - name: Build
         run: |
           cd /opt/esp/lib-builder/
-          ./build.sh
+          ./build.sh -t esp32c3
       - name: Zip artifacts
         run: |
           ver=2.0.17
